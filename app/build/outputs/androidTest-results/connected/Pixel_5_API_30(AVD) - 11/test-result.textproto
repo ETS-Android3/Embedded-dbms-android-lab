@@ -1,0 +1,73 @@
+# 2022-05-10T05:03:54.472Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "TestSuite$1"
+    test_package: "junit.framework"
+    test_method: "warning"
+    start_time {
+      seconds: 1652159033
+      nanos: 573000000
+    }
+    end_time {
+      seconds: 1652159033
+      nanos: 846000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)\nat android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)\nat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)"
+    error_type: "junit.framework.AssertionFailedError"
+    stack_trace: "junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)\nat android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)\nat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-junit.framework.TestSuite$1-warning.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
