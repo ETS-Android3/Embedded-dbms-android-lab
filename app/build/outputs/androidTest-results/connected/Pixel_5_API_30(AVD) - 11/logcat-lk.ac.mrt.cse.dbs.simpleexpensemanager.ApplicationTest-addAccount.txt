@@ -1,2 +1,0 @@
-05-10 16:09:38.652  3943  3965 I TestRunner: started: addAccount(lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest)
-05-10 16:09:38.659  3943  3965 I TestRunner: finished: addAccount(lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest)
