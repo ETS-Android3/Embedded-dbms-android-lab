@@ -1,0 +1,2 @@
+05-10 16:09:38.620  3943  3965 I TestRunner: started: getAccount(lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest)
+05-10 16:09:38.629  3943  3965 I TestRunner: finished: getAccount(lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest)
