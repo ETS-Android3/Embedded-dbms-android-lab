@@ -1,4 +1,0 @@
-#Tue May 10 16:09:29 IST 2022
-base.0=/home/springy/StudioProjects/SimpleExpenseManager/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
