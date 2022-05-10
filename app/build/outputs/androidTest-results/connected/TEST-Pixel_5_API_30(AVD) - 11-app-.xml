@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="junit.framework.TestSuite$1" tests="1" failures="1" errors="0" skipped="0" time="0.208" timestamp="2022-05-10T05:03:54" hostname="localhost">
+<testsuite name="lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest" tests="2" failures="0" errors="0" skipped="0" time="1.097" timestamp="2022-05-10T10:39:39" hostname="localhost">
   <properties>
     <property name="device" value="Pixel_5_API_30(AVD) - 11" />
     <property name="flavor" value="" />
     <property name="project" value="app" />
   </properties>
-  <testcase name="warning" classname="junit.framework.TestSuite$1" time="0.111">
-    <failure>junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)</failure>
-  </testcase>
+  <testcase name="getAccount" classname="lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest" time="0.015" />
+  <testcase name="addAccount" classname="lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest" time="0.001" />
 </testsuite>

@@ -16,18 +16,66 @@
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager;
 
+import android.content.Context;
+
+import androidx.test.core.app.ApplicationProvider;
 
 import org.junit.Before;
 import org.junit.Test;
-//import androidx.test.core.app.ApplicationProvider;
-import static org.junit.Assert.*;
-import android.app.Activity;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.ExpenseManager;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.PersistantExpenseManager;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistantAccountDAO;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
+
+import static org.junit.Assert.assertEquals;
+
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
  */
 public class ApplicationTest {
+    private ExpenseManager expenseManager;
+    private Context context;
+
+    @Before
+    public void setUp() {
+        context = ApplicationProvider.getApplicationContext();
+        expenseManager = new PersistantExpenseManager(new DBHandler(context));
+    }
+
+    @Test
+    public void getAccount() throws InvalidAccountException {
+        String accountNo="1";
+        String bankName = "bank";
+        String accountHolderName = "accountHolderName";
+        Double balance = 1234.0;
+        Account newAccount= new Account(accountNo,bankName,accountHolderName,balance);
+        PersistantAccountDAO testAccDAO= new PersistantAccountDAO(new DBHandler(context));
+        testAccDAO.addAccount(newAccount);
+        Account output= testAccDAO.getAccount(accountNo);
+        assertEquals(newAccount,output);
+    }
+    @Test
+    public void addAccount() throws InvalidAccountException {
+        String accountNo="1";
+        String bankName = "bank";
+        String accountHolderName = "accountHolderName";
+        Double balance = 1234.0;
+        Account newAccount= new Account(accountNo,bankName,accountHolderName,balance);
+        PersistantAccountDAO testAccDAO= new PersistantAccountDAO(new DBHandler(context));
+        testAccDAO.addAccount(newAccount);
+        Account output= testAccDAO.getAccount(accountNo);
+        assertEquals(newAccount,output);
+    }
+
 
 }

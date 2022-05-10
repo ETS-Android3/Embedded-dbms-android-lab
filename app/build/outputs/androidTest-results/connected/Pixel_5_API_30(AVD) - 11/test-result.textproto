@@ -1,35 +1,82 @@
-# 2022-05-10T05:03:54.472Z:
+# 2022-05-10T10:39:39.912Z:
 test_suite_meta_data {
-  scheduled_test_case_count: 1
+  scheduled_test_case_count: 2
 }
-test_status: FAILED
+test_status: PASSED
 test_result {
   test_case {
-    test_class: "TestSuite$1"
-    test_package: "junit.framework"
-    test_method: "warning"
+    test_class: "ApplicationTest"
+    test_package: "lk.ac.mrt.cse.dbs.simpleexpensemanager"
+    test_method: "getAccount"
     start_time {
-      seconds: 1652159033
-      nanos: 573000000
+      seconds: 1652179178
+      nanos: 767000000
     }
     end_time {
-      seconds: 1652159033
-      nanos: 846000000
+      seconds: 1652179178
+      nanos: 796000000
     }
   }
-  test_status: FAILED
-  error {
-    error_message: "junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)\nat android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)\nat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)"
-    error_type: "junit.framework.AssertionFailedError"
-    stack_trace: "junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)\nat android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)\nat android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)\nat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)"
-  }
+  test_status: PASSED
   output_artifact {
     label {
       label: "logcat"
       namespace: "android"
     }
     source_path {
-      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-junit.framework.TestSuite$1-warning.txt"
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest-getAccount.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ApplicationTest"
+    test_package: "lk.ac.mrt.cse.dbs.simpleexpensemanager"
+    test_method: "addAccount"
+    start_time {
+      seconds: 1652179178
+      nanos: 810000000
+    }
+    end_time {
+      seconds: 1652179178
+      nanos: 810000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest-addAccount.txt"
     }
   }
   output_artifact {

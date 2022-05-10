@@ -1,19 +1,26 @@
 
-ƒ
-C
-TestSuite$1junit.frameworkwarning2¹äç“À’‘:¹äç“€ß³“ô
-¤junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)$junit.framework.AssertionFailedError¤junit.framework.AssertionFailedError: No tests found in lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:195)
-at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:181)
-at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:564)
-at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2205)"Â
+È
+a
+ApplicationTest&lk.ac.mrt.cse.dbs.simpleexpensemanager
+getAccount2êé“Àûİí:êé“€şÇû"à
 
-logcatandroid¬
-©/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-junit.framework.TestSuite$1-warning.txt"§
+logcatandroidÊ
+Ç/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest-getAccount.txt"§
+
+device-infoandroidŒ
+‰/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/device-info.pb"¨
+
+device-info.meminfoandroid…
+‚/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/meminfo"¨
+
+device-info.cpuinfoandroid…
+‚/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/cpuinfoÈ
+a
+ApplicationTest&lk.ac.mrt.cse.dbs.simpleexpensemanager
+addAccount2êé“€½‚:êé“€½‚"à
+
+logcatandroidÊ
+Ç/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/logcat-lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest-addAccount.txt"§
 
 device-infoandroidŒ
 ‰/home/springy/StudioProjects/SimpleExpenseManager/app/build/outputs/androidTest-results/connected/Pixel_5_API_30(AVD) - 11/device-info.pb"¨
